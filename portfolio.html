@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaya Priya Eswarasankar | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#020617;
+color:#e2e8f0;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+header{
+padding:120px 0 60px 0;
+}
+
+nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#020617;
+z-index:1000;
+border-bottom:1px solid #1e293b;
+}
+
+.nav-inner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+nav h2{
+color:#facc15;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#facc15;
+}
+
+nav ul li a:hover{
+color:#020617;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero span{
+color:#facc15;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#facc15;
+color:#000;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+.section{
+padding:60px 0;
+}
+
+.section h2{
+font-size:28px;
+margin-bottom:25px;
+color:#facc15;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.skill{
+padding:15px;
+background:#1e293b;
+border-radius:8px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project:hover{
+transform:translateY(-5px);
+}
+
+footer{
+text-align:center;
+padding:30px 0;
+border-top:1px solid #1e293b;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+.hero{
+grid-template-columns:1fr;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-inner">
+<h2>Jaya Priya Eswarasankar</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<header class="container">
+
+<div class="hero">
+<div>
+<h1>Hello, I'm <span>Jaya Priya Eswarasankar</span></h1>
+<p>Electronics & Communication Engineer passionate about RF Systems, VLSI Design and Web Development. I build innovative engineering solutions and modern applications.</p>
+<a href="https://drive.google.com/file/d/1VG4DvY1nFCAcR_nFCuaCD85WF4VnH_-e/view?usp=sharing" class="btn" target="_blank">View Resume</a>
+</div>
+
+
+
+</header>
+
+<section id="about" class="section container">
+<h2>About Me</h2>
+<p>Hardworking and proactive Electronics & Communication Engineering graduate seeking to apply skills in both technical and core to drive innovation and tackle challenges while growing within a dynamic organization.</p>
+</section>
+
+<section id="skills" class="section container">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">Java</div>
+<div class="skill">C & C++</div>
+<div class="skill">SQL</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">MATLAB</div>
+<div class="skill">Ansys HFSS</div>
+<div class="skill">ModelSim</div>
+</div>
+</section>
+
+<section id="projects" class="section container">
+<h2>Projects</h2>
+<div class="projects">
+
+<div class="project">
+<h3>RF Signal Strength Robot</h3>
+<p>Robot moves toward stronger RF waves using 433 MHz receivers and AT89C51.</p>
+<h3><a href="https://drive.google.com/file/d/1VjMp7sLcowhogAFaGTFqJGd81Q5KJlOV/view?usp=sharing">RF Signal Strength Robot</a></h3>
+</div>
+
+<div class="project">
+<h3>Online Exam Platform</h3>
+<p>MCQ system with login, timer and admin panel using Java & MySQL.</p>
+<h3><a href="https://drive.google.com/file/d/1H_NC4Mf5p486crxW4Y_8qKM3Z2vg6y4H/view?usp=sharing">Online Exam Platform</a></h3>
+</div>
+
+<div class="project">
+<h3>Audio Recording System</h3>
+<p>STM32F103RB based audio recording and playback design.</p>
+<h3><a href="https://drive.google.com/file/d/1j4FfBwdEq5Qh92ESTp3s0jN19uPmloMh/view?usp=drive_link">Audio Recording System</a></h3>
+</div>
+
+<div class="project">
+<h3>Wearable Patch Antenna</h3>
+<p>2.4154 GHz wearable antenna for medical applications.</p>
+<h3><a href="https://drive.google.com/file/d/179uYMd5IhTuFvZL19DOC7RQP8fQdjna4/view?usp=sharing">Wearable Patch Antenna</a></h3>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="section container">
+<h2>Contact</h2>
+<p>Email: jayapriyaeswarasankar17@gmail.com</p>
+<p>Phone: +91-6385237419</p>
+<p>LinkedIn: https://www.linkedin.com/in/jayapriyaeswarasankar/</p>
+</section>
+
+<footer>
+<p>© 2026 Jaya Priya | Portfolio</p>
+</footer>
+
+</body>
+</html>
